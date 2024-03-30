@@ -2,9 +2,9 @@ const { Client } =require('pg');
 
 const client = new Client({
   user: 'postgres',
-  host: 'postgre-db-instance-1.cfc6wmay0j3n.us-east-1.rds.amazonaws.com',
-  database: 'postgredb1',
-  password: 'Jahidkhan786',
+  host: 'aws_endpoint',
+  database: 'database',
+  password: 'password',
   port: 5432, // Default PostgreSQL port
 });
 
