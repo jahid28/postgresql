@@ -7,6 +7,7 @@ const client = new Client({
   password: 'Jahidkhan786',
   port: 5432, // Default PostgreSQL port
 });
+
 // const client = new Client({
 //   user: 'postgres',
 //   host: 'localhost',
@@ -25,8 +26,8 @@ const client = new Client({
 // }
 
 client.connect()
-  .then(() => console.log('Connected to PostgreSQL'))
-  .catch(err => console.error('Connection error', err));
+  // .then(() => console.log('Connected to PostgreSQL'))
+  // .catch(err => console.error('Connection error', err));
 
 
 // async function createTable() {
