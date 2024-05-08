@@ -8,13 +8,6 @@ const client = new Client({
   port: 5432, // Default PostgreSQL port
 });
 
-// const client = new Client({
-//   user: 'postgres',
-//   host: 'localhost',
-//   database: 'db1',
-//   password: 'Jahidkhan@786',
-//   port: 5432, // Default PostgreSQL port
-// });
 
 // async function connectToDatabase() {
 //   try {
